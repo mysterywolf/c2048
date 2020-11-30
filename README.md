@@ -22,18 +22,18 @@
 
 ```
  RT-Thread online packages  --->
+ 	miscellaneous packages  --->
 	games: games run on RT-Thread console  --->
-    	miscellaneous packages  --->
-        	[*] 2048: An indie puzzle video game run on RT-Thread console.
+        	[*] 2048: An indie puzzle video game run on RT-Thread console
 ```
 
-在Finsh终端下键入：
+在终端下键入：
 
 ```shell
 msh> 2048
 ```
 
-即可运行
+即可运行。
 
 
 
