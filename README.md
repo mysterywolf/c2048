@@ -22,8 +22,9 @@
 
 ```
  RT-Thread online packages  --->
-    miscellaneous packages  --->
-        [*] 2048: An indie puzzle video game run on RT-Thread console.
+	games: games run on RT-Thread console  --->
+    	miscellaneous packages  --->
+        	[*] 2048: An indie puzzle video game run on RT-Thread console.
 ```
 
 在Finsh终端下键入：
