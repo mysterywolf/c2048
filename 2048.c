@@ -17,7 +17,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <time.h>
-#ifdef  G2048_USING_SIGNAL
+#ifdef  C2048_USING_SIGNAL
 #include <signal.h>
 #endif
 #include <finsh.h>
@@ -104,8 +104,6 @@ static uint8_t findTarget(uint8_t array[SIZE],uint8_t x,uint8_t stop) {
 			}
 		}
 	}
-	// we did not find a
-	return x;
 }
 
 static bool slideArray(uint8_t array[SIZE]) {
@@ -354,7 +352,7 @@ static int test() {
 	return !success;
 }
 
-#ifdef  G2048_USING_SIGNAL
+#ifdef  C2048_USING_SIGNAL
 static void signal_callback_handler(int signum) {
 	printf("         TERMINATED         \n");
 	setBufferedInput(true);
@@ -380,7 +378,7 @@ static int main_2048 (int argc, char *argv[]) {
 
 	printf("\033[?25l\033[2J");
 
-#ifdef  G2048_USING_SIGNAL
+#ifdef  C2048_USING_SIGNAL
 	// register signal handler for when ctrl-c is pressed
 	signal(SIGINT, signal_callback_handler);
 #endif
@@ -389,7 +387,7 @@ static int main_2048 (int argc, char *argv[]) {
 	setBufferedInput(false);
 	while (true) {
 		c=getchar();
-		if (c == -1){
+		if (c == (char)-1){
 			puts("\nError! Cannot read keyboard input!");
 			break;
 		}
