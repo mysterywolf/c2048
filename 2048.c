@@ -5,7 +5,7 @@
              : Meco Man (RT-Thread Community)
  Description : Console version of the game "2048" for GNU/Linux
              : Console version of the game "2048" for RT-Thread (by Meco Man)
- Change log  : 2020-09-10    Meco Man     For RT-Thread
+ Change log  : 2020-09-10    Meco Man     porting for RT-Thread
  ============================================================================
  */
 
