@@ -20,7 +20,6 @@
 #ifdef  C2048_USING_SIGNAL
 #include <signal.h>
 #endif
-#include <finsh.h>
 
 #define SIZE 4
 static unsigned int score=0;
@@ -412,8 +411,6 @@ static int main_2048 (int argc, char *argv[]) {
 		}
 		if (success) {
 			drawBoard(board);
-			//usleep(150000);
-			rt_thread_mdelay(150);
 			addRandom(board);
 			drawBoard(board);
 			if (gameEnded(board)) {
