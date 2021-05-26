@@ -13,7 +13,7 @@ Configure the project in the [RT-Thread Env tool](https://www.rt-thread.io/downl
 ```
  RT-Thread online packages  --->
     miscellaneous packages  --->
-        games: games run on RT-Thread console  --->
+        entertainment: terminal games and other interesting software packages  --->
             [*] 2048: An indie puzzle video game run on RT-Thread console
 
 ```
