@@ -20,3 +20,9 @@ Configure the project in the [RT-Thread Env tool](https://www.rt-thread.io/downl
 ```
 
 Enter `msh> 2048` in the terminal can get it successfully running. 
+
+Meco Man
+
+jiantingman@foxmail.com
+
+https://github.com/mysterywolf/2048
