@@ -8,6 +8,8 @@ This project ported the [2048 game](https://github.com/mevdschee/2048.c) that de
 
 ![screenshot](screenshot.png)
 
+
+## How to obtain
 Configure the project in the [RT-Thread Env tool](https://www.rt-thread.io/download.html?download=Env) or [RT-Studio](https://www.rt-thread.io/studio.html), as shown below:
 
 ```
@@ -15,7 +17,6 @@ Configure the project in the [RT-Thread Env tool](https://www.rt-thread.io/downl
     miscellaneous packages  --->
         entertainment: terminal games and other interesting software packages  --->
             [*] 2048: An indie puzzle video game run on RT-Thread console
-
 ```
 
 Enter `msh> 2048` in the terminal can get it successfully running. 
