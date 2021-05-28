@@ -18,7 +18,7 @@
 
 ![screenshot](screenshot.png)
 
-在ENV工具的配置方法：
+## 如何获取软件包
 
 ```
  RT-Thread online packages  --->
